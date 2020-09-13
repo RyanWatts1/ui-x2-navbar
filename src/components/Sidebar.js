@@ -6,7 +6,8 @@ import { BrowserRouter as Router, Route, Link, withRouter } from "react-router-d
 /* This defines the  LOOK of the actual bar going
  down the screen */
 const StyledSideNav = styled.div`
-  position: fixed;     /* Fixed Sidebar (stay in place on scroll and position relative to viewport) */
+  position: fixed;     /* Fixed Sidebar 
+  (stay in place on scroll and position relative to viewport) */
   height: 100%;
   width: 75px;     /* Set the width of the sidebar */
   z-index: 1;      /* Stay on top of everything */
@@ -39,7 +40,7 @@ class SideNav extends React.Component {
             },
            { path: '/NoMatch',
             name: 'NoMatch',
-            css: 'fas fa-hashtag',
+            css: 'fa fa-exclamation-circle',
             key:3
           },
           ]
@@ -84,7 +85,7 @@ const StyledNavItem = styled.div`
   margin-bottom: 0;   /* Puts space between NavItems */
   a {
     font-size: 2.7em;
-    color: ${(props) => props.active ? "white" : "#9FFFCB"};
+    color: ${(props) => props.active ? "white" : "#709fb0"};
     :hover {
       opacity: 0.7;
       text-decoration: none; /* Gets rid of underlining of icons */
