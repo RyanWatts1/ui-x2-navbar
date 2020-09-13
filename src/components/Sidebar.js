@@ -28,7 +28,7 @@ class SideNav extends React.Component {
             is active */
             name: 'Home',
             css: 'fa fa-fw fa-home',
-            key: 1 /* Key is required by law jk hah, is required else consile
+            key: 1 /* Key is required by law jk hah, is required else console 
             will throw an error. Does this please you Ser. Browser?
             lol im learning. */
             },
