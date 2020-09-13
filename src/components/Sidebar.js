@@ -35,7 +35,7 @@ class SideNav extends React.Component {
             {
               path: './about',
               name: 'About',
-              css: 'fa fa-fw fa-clock',
+              css: 'fa  fa-user',
               key: 2 
             },
            { path: '/NoMatch',
