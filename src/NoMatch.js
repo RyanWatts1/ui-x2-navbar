@@ -7,7 +7,7 @@ const Wrapper = styled.div`
 `;
 const NoMatch = () => (
   <Wrapper>
-    <h2> 404 error page not found </h2>
+    <h2> Email for Inquires</h2>
   </Wrapper>
 )
 

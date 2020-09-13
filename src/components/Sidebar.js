@@ -40,7 +40,7 @@ class SideNav extends React.Component {
             },
            { path: '/NoMatch',
             name: 'NoMatch',
-            css: 'fa fa-exclamation-circle',
+            css: 'fa fa-envelope',
             key:3
           },
           ]
