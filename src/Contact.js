@@ -5,10 +5,10 @@ const Wrapper = styled.div`
   margin-left: 6em;
   margin-right: 6em;
 `;
-const NoMatch = () => (
+const Contact = () => (
   <Wrapper>
     <h2> Email for Inquires</h2>
   </Wrapper>
 )
 
-export default NoMatch;
+export default Contact;
